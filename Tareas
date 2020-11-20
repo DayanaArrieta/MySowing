@@ -1,0 +1,83 @@
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" type="text/css" href="css/css_tarea.css" />
+         <script type="text/javascript" src="js/tareas.js"></script>
+        <title>Tareas</title>
+    </head>
+    <body>
+        <div class="area">
+            
+            <img id="logo" src="img/logo.png" alt="Logo: manos sostienen plantas">
+            <img id="letrero" src="img/letrero.png" alt="my sowing">
+            <div class="allado">
+            <span class="titulo1">Lista de tareas</span>
+            </div>
+        </div>
+        <div id="area2">
+            
+        <div id="area3">
+            
+        <div id="panel">
+            <img class="icono" src="img/calendario.png" alt="un calendario">
+            <img class="icono" src="img/notifi.png" alt="un globo de comentario">
+            <img class="icono" src="img/perfil.png" alt="un perfil vacio">
+            <img class="icono" src="img/lista.png" alt="una lista">
+            <img class="iconoh" src="img/hoja.png" alt="una hoja de planta">
+            </div>
+            <div id="area4">
+                <form method="post" action="Mysowing">
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ca" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="not" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="Inicio" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ta" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="cat" /></span>
+                </form>
+            </div>
+            <span class="comentario">Marca las tareas despu&eacute;s de realizarlas para sumar puntos:</span>
+            <div class="tar">
+                <div class="tareas">
+                <div class="tarea">
+                    <h1 class="texto">Selecciona un lugar donde quieras ubicar tu huerta(recuerda el lugar tiene que cubrir la huerta con el suficiente sol y sificiente sombra).</h1>
+                    <label class="container">
+                        <input type="checkbox" name="si1" id="op1preg1" onclick="cuestionario(1, 1)">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="tarea">
+                    <h1 class="texto">Materiales a obtener:
+                        <br>
+                        <br>1. Deber&aacute;s conseguir un abono orgánico(fertilizante) o realizarlo casero.
+                        <br>2. Buscar c&aacute;scaras de frutas las cuales colocarlas junto a la semilla que quieres cultivar.
+                        <br>3. Consigue una regadera donde puedas echar el agua.
+                        <br>4. Ubica tu maceta en el lugar que elegiste.
+                    </h1>
+                    <label class="container">
+                        <input type="checkbox" name="si1" id="op1preg1" onclick="cuestionario(1, 2)">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="tarea">
+                    <h1 class="texto">Empezaremos por plantar cebolla, una verdura sencilla para comenzar:
+                        <br>
+                        <br>1. Corta una cebolla (o más) de manera que la zona de la raíz (bulbo) no se toque.
+                        <br>2. Llena la maceta con tierra a 3/4 de su capacidad.
+                        <br>3. Entierra los bulbos a 3-5 cm de profundidad y a 15 cm de separación.
+                        <br>4. Riega sin encharcar la tierra.
+                        <br>5. Coloca la maceta en el lugar seleccionado (sin superar los 30° C).
+                        <br>6. Riega ligeramente a diario por 15 d&iacute;as o hasta que los bulbos aparezcan.
+                    </h1>
+                    <label class="container">
+                        <input type="checkbox" name="si1" id="op1preg1" onclick="cuestionario(1, 3)">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+</html>

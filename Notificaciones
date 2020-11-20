@@ -1,0 +1,67 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" type="text/css" href="css/css_noti.css" />
+        <title>Notificaciones</title>
+    </head>
+    <body>
+        <div class="area">
+            
+            <img id="logo" src="img/logo.png" alt="Logo: manos sostienen plantas">
+            <img id="letrero" src="img/letrero.png" alt="my sowing">
+            <div class="allado">
+            <span class="titulo1">Recordatorios</span>
+            </div>
+        </div>
+        <div id="area2">
+            
+        <div id="area3">
+            
+        <div id="panel">
+            <img class="icono" src="img/calendario.png" alt="un calendario">
+            <img class="icono" src="img/notifi.png" alt="un globo de comentario">
+            <img class="icono" src="img/perfil.png" alt="un perfil vacio">
+            <img class="icono" src="img/lista.png" alt="una lista">
+            <img class="iconoh" src="img/hoja.png" alt="una hoja de planta">
+            </div>
+            <div id="area4">
+                <form method="post" action="Mysowing">
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ca" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="not" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="Inicio" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ta" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="cat" /></span>
+                </form>
+            </div>
+            <div class="notifis">
+                <div class="notificaciones">
+                <div class="notificacion">
+                    <h1 class="tipo">Riego:</h1>
+                    <br>
+                    <h1 class="texto">¡Es momento de regar tu planta! no olvides que es mejor si lo haces en la mañana o en la noche</h1>
+                    <img class="img" src="img/gota.png" alt="gota de agua">
+                </div>
+                <div class="notificacion">
+                    <h1 class="tipo">Mantenimiento:</h1>
+                    <h1 class="texto">¡Es momento de revisar tu planta y ver que retoques necesita, como quitar malesas y hojas o frutos secos!</h1>
+                    <img class="img" src="img/mante.jpg" alt="tijeras de podar">
+                </div>
+                <div class="notificacion">
+                    <h1 class="tipo">Fertilización:</h1>
+                    <br>
+                    <h1 class="texto">¡Es momento de fertilizar tu planta!, si ya no te queda fertilizante, recuerda las recetas caseras son una gran opci&oacute;n</h1>
+                    <img class="img" src="img/ferti.png" alt="bolsa de fertilizante">
+                </div>
+                <div class="notificacion">
+                    <h1 class="tipo">Tip:</h1>
+                    <br>
+                    <h1 class="texto">El riego es parte fundamental del crecimiento de una planta, por lo tanto unos tips que debes recordar son: no te confies de la lluvia, riega la tierra no las hojas, y riega en la mañana</h1>
+                    <img class="img" src="img/tip_1.png" alt="bombillas">
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

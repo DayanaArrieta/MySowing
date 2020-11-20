@@ -1,0 +1,57 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/css_cat.css" />
+        <title>Cat&aacute;logo</title>
+    </head>
+    <body>
+        <div class="area">
+            
+            <img id="logo" src="img/logo.png" alt="Logo: manos sostienen plantas">
+            <img id="letrero" src="img/letrero.png" alt="my sowing">
+            <div class="allado">
+                <span class="titulo1">Mi cat&aacute;logo</span>
+            </div>
+        </div>
+        <div id="area2">
+            
+        <div id="area3">
+            
+        <div id="panel">
+            <img class="icono" src="img/calendario.png" alt="un calendario">
+            <img class="icono" src="img/notifi.png" alt="un globo de comentario">
+            <img class="icono" src="img/perfil.png" alt="un perfil vacio">
+            <img class="icono" src="img/lista.png" alt="una lista">
+            <img class="iconoh" src="img/hoja.png" alt="una hoja de planta">
+            </div>
+            <div id="area4">
+                <form method="post" action="Mysowing">
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ca" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="not" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="Inicio" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ta" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="cat" /></span>
+                </form>
+            </div>
+            <span class="comentario">Usa este espacio para escribir acerca de las plantas que le interesen o hacer anotaciones de sus propias plantas</span>
+            </div>
+            <div class="area5">
+                <div class="imge">
+                   <img id="img" src="img/fresas.jpg" alt="fresas">
+                </div>
+            <div class="texto">
+                <h3>Fresas</h3>
+                Una fresa o frutilla es una planta perenne de la familia de las Rosáceas, cuyo fruto es comestible. La planta presenta tallos rastreros, con estolones, hojas vellosas y flores blancas o amarillentas. El fruto mide cerca de un centímetro de largo, es rojo, tiene sabor dulce y presenta un aroma característico.
+                <br>
+                <br>
+                La frutilla es una fuente de vitamina C, vitamina P, hidratos de carbono, potasio, magnesio, calcio y agua. Se estima que 100 gramos de fresa incluyen 34,5 calorías.
+                <br>
+                <br>
+                Esas propiedades citadas son las que hacen de la fresa una de las frutas más beneficiosas para nuestro organismo, de ahí que siempre se aconseje el incluirla en nuestra dieta. Así, por ejemplo, se convierte en un perfecto aliado de nuestro cuerpo a la hora de tratar los problemas de tensión elevada.
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

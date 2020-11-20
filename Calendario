@@ -1,0 +1,101 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" type="text/css" href="css/css_calen.css" />
+        <title>Calendario</title>
+    </head>
+    <body>
+        <div class="area">
+            
+            <img id="logo" src="img/logo.png" alt="Logo: manos sostienen plantas">
+            <img id="letrero" src="img/letrero.png" alt="my sowing">
+            <div class="allado">
+            <span class="titulo1">Calendario</span>
+            </div>
+        </div>
+        <div id="area2">
+            
+        <div id="area3">
+            
+        <div id="panel">
+            <img class="icono" src="img/calendario.png" alt="un calendario">
+            <img class="icono" src="img/notifi.png" alt="un globo de comentario">
+            <img class="icono" src="img/perfil.png" alt="un perfil vacio">
+            <img class="icono" src="img/lista.png" alt="una lista">
+            <img class="iconoh" src="img/hoja.png" alt="una hoja de planta">
+            </div>
+            <div id="area4">
+                <form method="post" action="Mysowing">
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ca" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="not" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="Inicio" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ta" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="cat" /></span>
+                </form>
+            </div>
+            <span class="comentario">D&iacute;as de mantenimiento y cosecha:</span>
+            <div class="root">
+                <div class="calendar" id="calendar">
+                    <div class="calendar_header">
+                        <input type="submit" value="<" class="control control--prev"></input>
+                        <span class="month-name">Diciembre 2020</span>
+                        <input type="submit" value=">" class="control control--prev"></input>
+                    </div>
+                    <div class="calendar_body">
+                        <div class="grid">
+                            <div class="grid_header">
+                                <span class="grid_cell grid_cell--gh">Lun</span>
+                                <span class="grid_cell grid_cell--gh">Mar</span>
+                                <span class="grid_cell grid_cell--gh">Mi&eacute;</span>
+                                <span class="grid_cell grid_cell--gh">Jue</span>
+                                <span class="grid_cell grid_cell--gh">V&iacute;e</span>
+                                <span class="grid_cell grid_cell--gh">S&aacute;b</span>
+                                <span class="grid_cell grid_cell--gh">Dom</span>
+                            </div>
+                            <div class="grid_body">
+                                <span class="grid_cell grid_cell--gd grid_cell--disable">28</span>
+                                <span class="grid_cell grid_cell--gd grid_cell--disable">29</span>
+                                <span class="grid_cell grid_cell--gd">1</span>
+                                <span class="grid_cell grid_cell--gd">2</span>
+                                <span class="grid_cell grid_cell--gd">3</span>
+                                <span class="grid_cell grid_cell--gd">4</span>
+                                <span class="grid_cell grid_cell--gd">5</span>
+                                <span class="grid_cell grid_cell--gd">6</span>
+                                <span class="grid_cell grid_cell--gd">7</span>
+                                <span class="grid_cell grid_cell--gd grid_cell--select">8</span>
+                                <span class="grid_cell grid_cell--gd">9</span>
+                                <span class="grid_cell grid_cell--gd">10</span>
+                                <span class="grid_cell grid_cell--gd">11</span>
+                                <span class="grid_cell grid_cell--gd">12</span>
+                                <span class="grid_cell grid_cell--gd">13</span>
+                                <span class="grid_cell grid_cell--gd">14</span>
+                                <span class="grid_cell grid_cell--gd">15</span>
+                                <span class="grid_cell grid_cell--gd">16</span>
+                                <span class="grid_cell grid_cell--gd">17</span>
+                                <span class="grid_cell grid_cell--gd">18</span>
+                                <span class="grid_cell grid_cell--gd">19</span>
+                                <span class="grid_cell grid_cell--gd">20</span>
+                                <span class="grid_cell grid_cell--gd">21</span>
+                                <span class="grid_cell grid_cell--gd">22</span>
+                                <span class="grid_cell grid_cell--gd">23</span>
+                                <span class="grid_cell grid_cell--gd">24</span>
+                                <span class="grid_cell grid_cell--gd">25</span>
+                                <span class="grid_cell grid_cell--gd">26</span>
+                                <span class="grid_cell grid_cell--gd">27</span>
+                                <span class="grid_cell grid_cell--gd grid_cell--select">28</span>
+                                <span class="grid_cell grid_cell--gd">29</span>
+                                <span class="grid_cell grid_cell--gd">30</span>
+                                <span class="grid_cell grid_cell--gd">31</span>
+                                <span class="grid_cell grid_cell--gd grid_cell--disable">1</span>
+                                <span class="grid_cell grid_cell--gd grid_cell--disable">2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

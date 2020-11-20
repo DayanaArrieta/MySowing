@@ -1,0 +1,46 @@
+<%-- 
+    Document   : inicioses
+    Created on : 9/03/2020, 04:30:11 PM
+    Author     : lenovo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Inicio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/css_is.css">
+        <script type="text/javascript" src="js/inicioses.js"></script>
+
+    </head>
+    <body>
+
+        <div class="inicial">
+            <img id="logo" src="img/logo.png" alt="Logo: manos sostienen plantas">
+            <img id="letrero" src="img/letrero.png" alt="my sowing">
+
+            <form method="post" action="login" onsubmit="return Validar()">
+
+            <h1 class="titulos">Inicio de Sesi&oacute;n</h1>
+            <div class="area">
+            <label>Nombre de usuario:</label>
+            <input type="text" name="nombre" class="casilla-input"/>
+            <span id="nom" class="errores">tgh</span>
+            <label>Contraseña:</label> 
+            <input type="password" name="contraseña" class="casilla-input"/>
+            <span id="cont" class="errores">tdg</span>
+            <input id="inicio" class="boton1" name="login" type="submit" value="Inicio" />
+            </div>
+            </form>
+
+            <form  method="post" action="Mysowing" >
+                <input class="boton" type="submit" name="siguiente" value="Registrarse" />
+                <br>
+                <h1 id="regis">¿A&uacute;n no es parte de My Sowing? Reg&iacute;strese</h1>
+            </form>
+
+        </div>
+    </body>
+</html>

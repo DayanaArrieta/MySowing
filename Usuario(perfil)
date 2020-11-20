@@ -1,0 +1,79 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="modelosdeclases.Usuario"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" type="text/css" href="css/css_usu.css" />
+        <title>Perfil</title>
+    </head>
+    <body>
+        <div class="area">
+            
+            <img id="logo" src="img/logo.png" alt="Logo: manos sostienen plantas">
+            <img id="letrero" src="img/letrero.png" alt="my sowing">
+            <div class="allado">
+            <span class="titulo1">Mi Perfil</span>
+            </div>
+        </div>
+        <div id="area2">
+            <img id="fotop" src="img/perfil.png" alt="foto de perfil">
+            <br>
+              <%
+            ArrayList<Usuario> array_usuarios = (ArrayList<Usuario>) request.getAttribute("usuarios");
+            
+
+            
+            
+            
+            
+            for(Usuario u :array_usuarios ){
+
+        %>
+        
+        <span class="usu"> @<%= u.getUsuario()%></span> 
+       <div id="area3">
+        <span class="nom"><%= u.getNombre()%></span> 
+        
+        
+        <%}%>
+        
+        <%
+            if(array_usuarios.isEmpty()){
+        %>
+        
+        <p>vacio</p>
+        
+        <%}%>
+        <br>
+        <h1 class="datos"> Nivel: medio <h1>
+        <h1 class="datos"> Puntos ganados: 2 <h1>   
+         <form  method="post" action="Mysowing" >
+                <input class="boton" type="submit" name="siguiente" value="Cerrar sesión" />
+         </form>
+        </div>
+        <div id="area4">
+            
+        <div id="panel">
+            <img class="icono" src="img/calendario.png" alt="un calendario">
+            <img class="icono" src="img/notifi.png" alt="un globo de comentario">
+            <img class="icono" src="img/perfil.png" alt="un perfil vacio">
+            <img class="icono" src="img/lista.png" alt="una lista">
+            <img class="iconoh" src="img/hoja.png" alt="una hoja de planta">
+            </div>
+            <div id="area6">
+                <form method="post" action="Mysowing">
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ca" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="not" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="Inicio" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="ta" /></span>
+            <span class="botonp"><input class="botong" type="submit" name="siguiente" value="cat" /></span>
+                </form>
+            </div>
+            <span class="comentario">Usa este espacio para subir las fotos de tus plantas y así llevar un progreso</span>
+            <img class="img" src="img/tomate.jpg" alt="siembra de tomates">
+        </div>
+       </div>
+    </body>
+</html>
